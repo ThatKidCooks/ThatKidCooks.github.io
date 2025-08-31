@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThatKid - Minecraft Plugin Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">ThatKid</div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">ThatKid</h1>
+            <p class="hero-subtitle">Minecraft Plugin Developer</p>
+            <p class="hero-description">Crafting innovative Minecraft plugins with Kotlin & Java</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <div class="code-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <span class="code-title">MinecraftPlugin.kt</span>
+                </div>
+                <div class="code-content">
+                    <span class="code-keyword">class</span> <span class="code-class">MinecraftPlugin</span> : <span class="code-class">JavaPlugin</span>() {<br>
+                    &nbsp;&nbsp;<span class="code-keyword">override fun</span> <span class="code-function">onEnable</span>() {<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;logger.<span class="code-function">info</span>(<span class="code-string">"Plugin enabled!"</span>)<br>
+                    &nbsp;&nbsp;}<br>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Minecraft plugin developer specializing in creating innovative and efficient plugins using Kotlin and Java. With a deep understanding of the Minecraft ecosystem and modern programming practices, I build plugins that enhance gameplay experiences for thousands of players.</p>
+                    <p>My focus is on writing clean, maintainable code that follows best practices while delivering exceptional performance and user experience. I enjoy tackling complex challenges and turning creative ideas into functional Minecraft modifications.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Years Coding</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50k+</div>
+                        <div class="stat-label">Downloads</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Plugins Created</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-java skill-icon"></i>
+                    <h3>Java</h3>
+                    <p>Advanced Java development for Minecraft plugins with deep understanding of the Bukkit/Spigot API</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>Kotlin</h3>
+                    <p>Modern Kotlin development bringing concise, expressive code to Minecraft plugin development</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-cube skill-icon"></i>
+                    <h3>Minecraft Development</h3>
+                    <p>Bukkit, Spigot, Paper APIs with expertise in event handling, commands, and server mechanics</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>Database Integration</h3>
+                    <p>MySQL, SQLite, and MongoDB integration for persistent plugin data storage</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt skill-icon"></i>
+                    <h3>Version Control</h3>
+                    <p>Git workflow, GitHub collaboration, and continuous integration practices</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-tools skill-icon"></i>
+                    <h3>Build Tools</h3>
+                    <p>Maven, Gradle build systems with experience in dependency management and deployment</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-magic project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Advanced Economy Plugin</h3>
+                        <p>A comprehensive economy system with shops, auctions, and banking features built with Kotlin and MySQL integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Spigot API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Code</a>
+                            <a href="#" class="project-link">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>PvP Arena Manager</h3>
+                        <p>Dynamic PvP arena system with matchmaking, spectator modes, and real-time statistics tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Paper API</span>
+                            <span class="tech-tag">Redis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Code</a>
+                            <a href="#" class="project-link">Documentation</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-map project-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>World Generation Tools</h3>
+                        <p>Custom world generation plugins with biome customization and structure placement algorithms.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">WorldEdit API</span>
+                            <span class="tech-tag">Custom Algorithms</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Code</a>
+                            <a href="#" class="project-link">Gallery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-content">
+                <p class="contact-description">Interested in collaborating on Minecraft plugins or have a project in mind? I'd love to hear from you!</p>
+                <div class="contact-links">
+                    <a href="https://github.com/ThatKidCooks" class="contact-link">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://discord.gg/minecraft" class="contact-link">
+                        <i class="fab fa-discord"></i>
+                        Discord
+                    </a>
+                    <a href="mailto:contact@thatkid.dev" class="contact-link">
+                        <i class="fas fa-envelope"></i>
+                        Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ThatKid. Built with passion for Minecraft development.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
