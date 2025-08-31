@@ -105,6 +105,7 @@ body {
     max-width: 600px;
     z-index: 2;
     position: relative;
+    margin-left: 15rem;
 }
 
 .hero-title {
